@@ -51,7 +51,17 @@ df = spark.createDataFrame(data=cars, schema = cars_columns)
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 4. Lastly, display the first column as 'brands' AND also display the second column
+# MAGIC ### 4. Display the first column as 'brands' AND also display the second column
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### 5. Lastly, use a SQL expression to get the same output asked in question 4
+# MAGIC Hint: Use selectExpr() function
 
 # COMMAND ----------
 

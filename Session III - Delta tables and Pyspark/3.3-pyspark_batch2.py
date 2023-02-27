@@ -77,4 +77,8 @@ df.groupBy('genre').min()
 df.groupBy('genre').max()
 df.groupBy('genre').sum()
 df.groupBy('genre').avg()
-df.groupBy('genre').agg(sum('Annual Income (k$)')).display()
+df.groupBy('genre').agg(sum('Annual Income (k$)').alias('Sum annual income')).display()
+
+# COMMAND ----------
+
+
