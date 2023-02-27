@@ -46,7 +46,8 @@ df.select("car_brand",col("model")).display()
 # COMMAND ----------
 
 # Update value
-df.withColumn("seats",col("seats")*100).display()
+df_news = df.withColumn("seats",col("seats")*100)
+df_news.display()
 
 # COMMAND ----------
 
@@ -55,7 +56,7 @@ df.withColumn("power",col("power").cast("String")).printSchema()
 
 # COMMAND ----------
 
-# Create column
+# Create new column
 df.withColumn("has_four_wheels", lit(True)).display()
 
 # COMMAND ----------

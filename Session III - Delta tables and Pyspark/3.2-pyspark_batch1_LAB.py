@@ -33,7 +33,7 @@ df = spark.createDataFrame(data=cars, schema = cars_columns)
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 3. Add a new column 'is_available' that with value 'yes'
+# MAGIC ### 3. Add a new column 'is_available' with value 'yes'
 
 # COMMAND ----------
 
