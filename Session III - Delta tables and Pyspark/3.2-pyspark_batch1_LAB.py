@@ -61,7 +61,8 @@ df = spark.createDataFrame(data=cars, schema = cars_columns)
 
 # MAGIC %md
 # MAGIC ### 5. Lastly, use a SQL expression to get the same output asked in question 4
-# MAGIC Hint: Use selectExpr() function
+# MAGIC Hint: Use selectExpr() function \
+# MAGIC docs: https://sparkbyexamples.com/spark/spark-select-vs-selectexpr-with-examples/
 
 # COMMAND ----------
 

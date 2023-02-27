@@ -109,7 +109,7 @@ df.display()
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 9. Use SQL query to get the output of question 8
+# MAGIC ### 9. Use SQL query to do question 8
 # MAGIC Hint: use spark.sql(), this returns a spark dataframe
 
 # COMMAND ----------

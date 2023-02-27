@@ -31,6 +31,11 @@ describe extended students
 
 -- COMMAND ----------
 
+-- MAGIC %python
+-- MAGIC display(dbutils.fs.ls('dbfs:/user/hive/warehouse/students/_delta_log/'))
+
+-- COMMAND ----------
+
 DROP TABLE students
 
 -- COMMAND ----------
