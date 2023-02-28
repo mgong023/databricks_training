@@ -35,7 +35,7 @@ deptDF.display()
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 1. Perform an inner join on the two dataframes on department id
+# MAGIC ### 1. Perform an inner join on department id
 
 # COMMAND ----------
 
@@ -44,7 +44,7 @@ deptDF.display()
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 2. Perform a left join on the two dataframes on department id
+# MAGIC ### 2. Perform a left join on department id
 
 # COMMAND ----------
 
