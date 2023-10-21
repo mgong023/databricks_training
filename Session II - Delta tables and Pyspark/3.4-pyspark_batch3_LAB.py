@@ -155,16 +155,17 @@ from pyspark.sql.window import Window
 
 # COMMAND ----------
 
-simpleData = (("Harry", "Sales", 2000), \
-    ("Mike", "Sales", 2200),  \
-    ("Lisa", "Sales", 3000),   \
-    ("Claire", "Finance", 3000),  \
-    ("James", "Sales", 2800),    \
-    ("John", "Finance", 3500),  \
-    ("Ken", "Finance", 3900),    \
-    ("Baljeet", "Marketing", 4000), \
-    ("Michael", "Marketing", 4500),\
-    ("Ali", "Sales", 4100) \
+simpleData = (
+  ("Harry", "Sales", 2000), \
+  ("Mike", "Sales", 2200),  \
+  ("Lisa", "Sales", 3000),   \
+  ("Claire", "Finance", 3000),  \
+  ("James", "Sales", 2800),    \
+  ("John", "Finance", 3500),  \
+  ("Ken", "Finance", 3900),    \
+  ("Baljeet", "Marketing", 4000), \
+  ("Michael", "Marketing", 4500),\
+  ("Ali", "Sales", 4100) \
   )
  
 columns= ["employee_name", "department", "salary"]
